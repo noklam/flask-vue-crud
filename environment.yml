@@ -1,0 +1,8 @@
+name: python-vue
+channels:
+- conda-forge
+dependencies:
+- nodejs
+- pip:
+  - Flask==1.1.2
+  - Flask-Cors==3.0.10
